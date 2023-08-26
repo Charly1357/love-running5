@@ -61,8 +61,8 @@ nav{
 
 }
 /*Nav toggle*/
-#nav-toggle:checked~nav
-display:block;
+#nav-toggle:checked~nav{
+display:block;}
 /*Main*/
 main{
     background-color: lightblue;
