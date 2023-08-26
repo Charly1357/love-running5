@@ -1,5 +1,5 @@
 /*Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Narnoor&family=Noto+Sans+JP:wght@100&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Narnoor&family=Noto+Sans+JP:wght@100&family=Oswald:wght@200;300;400;500;600;700&display=swap');*/
 /*Asterix wildcar selector to override default styles added*/
 *{
     padding:0;
@@ -12,7 +12,7 @@ body{
     display:flex;
     flex-direction: column;
     /*Generic project styles*/
-    color:3a3a3a;
+    color:#3a3a3a;
     font-family:'Lato',sans-serif;
 }
 /*Header */
@@ -78,8 +78,12 @@ main{
     margin-top:47px;
 }
 /*Footer*/
-footer{
-    background-color:orange;
+#social-networks {
+    text-align: center;
+    padding:20px 0;
+    display:flex;
+    justify-content:space-evenly;
+    list-style-type: none;
 }
 /*Media queries:tablets and larger(768px and up)*/
 @media screen and (min-width:768px) {
@@ -97,7 +101,7 @@ footer{
      #menu > li {
         padding-left:1rem;
      }
-     .nav-toggle-label{
+     .nav-toggle-label {
         display:none;
      }
      #logo{
@@ -114,6 +118,6 @@ footer{
 /* Larger devices (laptops and desktops 992 and up)*/
 @media screen and (min-width:992px) {
     #menu a:hover{
-        border-bottom:1px solid #3a3a3a;
+        border-bottom: 1px solid #3a3a3a;
     }
 }
